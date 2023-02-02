@@ -1,0 +1,145 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+*{
+    margin: 0px;
+    padding;0px;
+}
+
+body{
+background-color: #86A3B8;
+}
+
+.header, .title{
+  text-align: center;
+  font-family: Arial Black;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.mS-output,
+.mS-results {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 40px;
+}
+
+.mS-input{
+  padding: 8px;
+}
+
+.unit {
+  width: 40px;
+ border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  transition: ease 0.2s;
+}
+
+.fib, title{
+  margin-top: 30px;
+  justify-content: center;
+  display: inle-block;
+  font-size: 20px;
+  
+
+}
+
+.mS-butt{
+  background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.social {
+  position: relative;
+  z-index: 10;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.social li {
+  list-style: none;
+  
+}
+.social li a {
+  display: inline-block;
+  margin-right: 20px;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+  color: #FFEA20;
+}
+.social li a:hover {
+  transform: scale(0.5) translateY(-15px);
+}
+footer p{
+  text-align: center;
+  margin: 50px;
+  font-size: 36px;
+}
+.panel-footer{
+  font-size: 40px;
+}
+.go{
+  font-size: 40px;
+}
